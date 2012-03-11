@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MUGatewayTask.h"
+#import "MUHTTPClient.h"
 
 @interface MUGateway : NSObject
+{
+    MUHTTPClient* httpClient;
+    
+    MUGatewayTask* startingTask;
+}
+
+- (void) configureHTTPClientWithBaseURL:(NSURL*)aBaseURL;
+- (void) httpRequestOperationDidEnqueue:(AFHTTPRequestOperation *)operation;
 
 @end

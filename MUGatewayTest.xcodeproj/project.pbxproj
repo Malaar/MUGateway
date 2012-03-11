@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02209C19150D0C42006FEF69 /* MUGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 02209C18150D0C42006FEF69 /* MUGateway.m */; };
+		02A874E8150D1187006D8A72 /* MUGatewayTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A874E7150D1187006D8A72 /* MUGatewayTask.m */; };
+		02A874EC150D15B6006D8A72 /* MUHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A874EB150D15B6006D8A72 /* MUHTTPClient.m */; };
 		02BC3F22150D0B2300BA87AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3F21150D0B2300BA87AD /* UIKit.framework */; };
 		02BC3F24150D0B2300BA87AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3F23150D0B2300BA87AD /* Foundation.framework */; };
 		02BC3F26150D0B2300BA87AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3F25150D0B2300BA87AD /* CoreGraphics.framework */; };
@@ -16,11 +18,16 @@
 		02BC3F32150D0B2300BA87AD /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC3F31150D0B2300BA87AD /* MUAppDelegate.m */; };
 		02BC3F35150D0B2300BA87AD /* MUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC3F34150D0B2300BA87AD /* MUViewController.m */; };
 		02BC3F38150D0B2300BA87AD /* MUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BC3F36150D0B2300BA87AD /* MUViewController.xib */; };
+		031BB20AFCB04CDFA6BDE927 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2899FDBC524C49D485B1E522 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02209C17150D0C42006FEF69 /* MUGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGateway.h; sourceTree = "<group>"; };
 		02209C18150D0C42006FEF69 /* MUGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGateway.m; sourceTree = "<group>"; };
+		02A874E6150D1187006D8A72 /* MUGatewayTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGatewayTask.h; sourceTree = "<group>"; };
+		02A874E7150D1187006D8A72 /* MUGatewayTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGatewayTask.m; sourceTree = "<group>"; };
+		02A874EA150D15B6006D8A72 /* MUHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHTTPClient.h; sourceTree = "<group>"; };
+		02A874EB150D15B6006D8A72 /* MUHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHTTPClient.m; sourceTree = "<group>"; };
 		02BC3F1D150D0B2300BA87AD /* MUGatewayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUGatewayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC3F21150D0B2300BA87AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02BC3F23150D0B2300BA87AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +41,8 @@
 		02BC3F33150D0B2300BA87AD /* MUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUViewController.h; sourceTree = "<group>"; };
 		02BC3F34150D0B2300BA87AD /* MUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUViewController.m; sourceTree = "<group>"; };
 		02BC3F37150D0B2300BA87AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MUViewController.xib; sourceTree = "<group>"; };
+		2899FDBC524C49D485B1E522 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A022A2A4D5E4452F9B199207 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 				02BC3F22150D0B2300BA87AD /* UIKit.framework in Frameworks */,
 				02BC3F24150D0B2300BA87AD /* Foundation.framework in Frameworks */,
 				02BC3F26150D0B2300BA87AD /* CoreGraphics.framework in Frameworks */,
+				031BB20AFCB04CDFA6BDE927 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +65,10 @@
 			children = (
 				02209C17150D0C42006FEF69 /* MUGateway.h */,
 				02209C18150D0C42006FEF69 /* MUGateway.m */,
+				02A874E6150D1187006D8A72 /* MUGatewayTask.h */,
+				02A874E7150D1187006D8A72 /* MUGatewayTask.m */,
+				02A874EA150D15B6006D8A72 /* MUHTTPClient.h */,
+				02A874EB150D15B6006D8A72 /* MUHTTPClient.m */,
 			);
 			path = MUGateway;
 			sourceTree = "<group>";
@@ -66,6 +80,7 @@
 				02BC3F27150D0B2300BA87AD /* MUGatewayTest */,
 				02BC3F20150D0B2300BA87AD /* Frameworks */,
 				02BC3F1E150D0B2300BA87AD /* Products */,
+				A022A2A4D5E4452F9B199207 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +98,7 @@
 				02BC3F21150D0B2300BA87AD /* UIKit.framework */,
 				02BC3F23150D0B2300BA87AD /* Foundation.framework */,
 				02BC3F25150D0B2300BA87AD /* CoreGraphics.framework */,
+				2899FDBC524C49D485B1E522 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +137,7 @@
 				02BC3F19150D0B2300BA87AD /* Sources */,
 				02BC3F1A150D0B2300BA87AD /* Frameworks */,
 				02BC3F1B150D0B2300BA87AD /* Resources */,
+				CC1815293C1B4C758DCDF4C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +186,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CC1815293C1B4C758DCDF4C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02BC3F19150D0B2300BA87AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -178,6 +212,8 @@
 				02BC3F32150D0B2300BA87AD /* MUAppDelegate.m in Sources */,
 				02BC3F35150D0B2300BA87AD /* MUViewController.m in Sources */,
 				02209C19150D0C42006FEF69 /* MUGateway.m in Sources */,
+				02A874E8150D1187006D8A72 /* MUGatewayTask.m in Sources */,
+				02A874EC150D15B6006D8A72 /* MUHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,22 +284,30 @@
 		};
 		02BC3F3C150D0B2300BA87AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A022A2A4D5E4452F9B199207 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MUGatewayTest/MUGatewayTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MUGatewayTest/MUGatewayTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		02BC3F3D150D0B2300BA87AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A022A2A4D5E4452F9B199207 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MUGatewayTest/MUGatewayTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MUGatewayTest/MUGatewayTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
