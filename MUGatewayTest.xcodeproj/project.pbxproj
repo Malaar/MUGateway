@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020C21F1150D2F7400B3AF37 /* MUGatewayResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C21F0150D2F7400B3AF37 /* MUGatewayResponse.m */; };
 		02209C19150D0C42006FEF69 /* MUGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 02209C18150D0C42006FEF69 /* MUGateway.m */; };
 		02A874E8150D1187006D8A72 /* MUGatewayTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A874E7150D1187006D8A72 /* MUGatewayTask.m */; };
 		02A874EC150D15B6006D8A72 /* MUHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A874EB150D15B6006D8A72 /* MUHTTPClient.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020C21EF150D2F7400B3AF37 /* MUGatewayResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGatewayResponse.h; sourceTree = "<group>"; };
+		020C21F0150D2F7400B3AF37 /* MUGatewayResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGatewayResponse.m; sourceTree = "<group>"; };
 		02209C17150D0C42006FEF69 /* MUGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGateway.h; sourceTree = "<group>"; };
 		02209C18150D0C42006FEF69 /* MUGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGateway.m; sourceTree = "<group>"; };
 		02A874E6150D1187006D8A72 /* MUGatewayTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGatewayTask.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				02A874E7150D1187006D8A72 /* MUGatewayTask.m */,
 				02A874EA150D15B6006D8A72 /* MUHTTPClient.h */,
 				02A874EB150D15B6006D8A72 /* MUHTTPClient.m */,
+				020C21EF150D2F7400B3AF37 /* MUGatewayResponse.h */,
+				020C21F0150D2F7400B3AF37 /* MUGatewayResponse.m */,
 			);
 			path = MUGateway;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				02209C19150D0C42006FEF69 /* MUGateway.m in Sources */,
 				02A874E8150D1187006D8A72 /* MUGatewayTask.m in Sources */,
 				02A874EC150D15B6006D8A72 /* MUHTTPClient.m in Sources */,
+				020C21F1150D2F7400B3AF37 /* MUGatewayResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

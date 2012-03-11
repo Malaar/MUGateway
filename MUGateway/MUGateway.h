@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "MUGatewayTask.h"
 #import "MUHTTPClient.h"
+#import "MUGatewayResponse.h"
+
+typedef void(^MUGatewayCallback)(MUGatewayResponse* aResponse);
 
 @interface MUGateway : NSObject
 {
